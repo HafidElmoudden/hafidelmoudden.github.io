@@ -154,3 +154,33 @@ header ul {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
 }
+
+.projects {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.project {
+    margin-top: -40px;
+}
+.project-item {
+    display: flex;
+    flex-direction: column;
+}
+.project-item div p {
+    margin-top: -15px;
+    color: #CE4A16;
+}
+
+.project-item div p a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.project-item div p:not(:first-child) {
+    padding-left: 25px;
+}
+
+.project-item div {
+    display: flex;
+    flex-direction: row;
+}
