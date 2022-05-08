@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Saira+Extra+Condensed:wght@700&display=swap');
+
+body {
+    position: relative;
+    display: flex;
+    background: linear-gradient(to bottom right,
+    #DD95F7 0%, #9AADF9 50%, #7FC9D9 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+header {
+    position: absolute;
+    left: 3.5rem;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 10rem;
+}
+
+header ul {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.lis {
+    margin-bottom: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(97, 94, 94);
+}
+.liactive {
+    font-weight: 1000;
+    color: black;
+}
+
+.liactive::before{
+    position: absolute;
+    left:1.7rem;
+    margin-top: 3px;
+    content: '';
+    background: black;
+    height: 1rem;
+    width: 3px;
+}
+
+.lis:hover {
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(24, 22, 22);
+}
+
+.lis:hover::before {
+    position: absolute;
+    left:1.7rem;
+    margin-top: 3px;
+    content: '';
+    background: black;
+    height: 1rem;
+    width: 3px;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 24rem;
+}
+
+.name {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 5rem;
+}
+
+.about {
+    margin-bottom: 7rem;
+}
+.about p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: -2rem;
+    line-height: 1.7rem;
+    font-weight: 600;
+}
+.logos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.socials{
+    cursor: pointer;
+}
+.socials:not(:first-child) {
+    margin-left: 1.5rem;
+}
+
+.items {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.itemsname {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 3rem;
+}
+
+.schools {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* this just because last child is so dumb that he ruins everything */
+.schools h3:not(:last-child) {
+    margin-right: 30rem;
+}
+
+.years {
+    /* margin left auto: to make sure the spans are under each other  */
+    margin-left: auto;
+    color: #ce4a16;
+    font-weight: bold;
+}
+
+.skills h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.hobbys p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    line-height: 2rem;
+}
+
+#hobbyslist {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
