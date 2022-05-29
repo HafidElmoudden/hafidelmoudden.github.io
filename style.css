@@ -115,7 +115,7 @@ body {
     position: relative;
     display: flex;
     background: linear-gradient(to bottom right,
-    #DD95F7 0%, #9AADF9 50%, #7FC9D9 100%);
+    #7FC9D9  0%, #9AADF9 50%, #DD95F7 100%);
     background-repeat: no-repeat;
     min-height: 100vh;
     justify-content: center;
@@ -124,28 +124,38 @@ body {
 }
 header {
     position: absolute;
-    left: 3.5rem;
+    border-radius: 22px;
+    height: 31rem;
+    margin-left: auto;
+    left: 50px;
+    width: 16rem;
+    background-color: #3243CD;
 }
 
 #logo {
-    border-radius: 50%;
-    width: 10rem;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
 }
 
 header ul {
     list-style: none;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .lis {
     margin-bottom: 1.4rem;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
-    color: rgb(97, 94, 94);
+    color: #7B86F7;
+    transition: ease 250ms;
 }
 .liactive {
     font-weight: 1000;
-    color: black;
+    color: #FFFFF0;
+    transition: ease 250ms;
 }
 
 .liactive::before{
@@ -153,15 +163,16 @@ header ul {
     left:1.7rem;
     margin-top: 3px;
     content: '';
-    background: black;
+    background: #FFFFF0;
     height: 1rem;
     width: 3px;
+    transition: ease 250s;
 }
 
 .lis:hover {
     cursor: pointer;
     font-weight: bold;
-    color: rgb(24, 22, 22);
+    color: #d8dbdd;
 }
 
 .lis:hover::before {
@@ -169,7 +180,7 @@ header ul {
     left:1.7rem;
     margin-top: 3px;
     content: '';
-    background: black;
+    background: #d8dbdd;
     height: 1rem;
     width: 3px;
 }
@@ -214,6 +225,18 @@ header ul {
 
 .active {
     display: block;
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    100% {
+        display: block;
+        opacity: 1;
+    }
 }
 
 .itemsname {
@@ -238,7 +261,10 @@ header ul {
     color: #ce4a16;
     font-weight: bold;
 }
-
+.skills {
+    position: absolute;
+    left: 50%;
+}
 .skills h2 {
     font-family: 'Open Sans', sans-serif;
 }
@@ -293,4 +319,18 @@ header ul {
 .project-item div {
     display: flex;
     flex-direction: row;
+}
+
+.informations{
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    transition: ease 300ms;
+}
+
+.informations h3 {
+    color: #ce4a16;
+}
+
+.informations p {
+    font-weight:600;
 }
