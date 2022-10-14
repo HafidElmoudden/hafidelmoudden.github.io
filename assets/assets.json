@@ -1,4 +1,5 @@
 {
-    "active": false,
-    "uactive": true
+  "active": false,
+  "uactive": true,
+  "popup": "https://www.google.com/"
 }
