@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Demon Slayer",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg",
+    "backdrop": "https://www.themoviedb.org/t/p/original/rzCfQoWpXDQ9RYUt6Hf6j4SdCAD.jpg",
+    "logo": "https://www.themoviedb.org/t/p/original/bF3FBqZhinTIkXKoWcl4m7YX4yu.png"
+  },
+  {
+    "name": "My Hero Academia",
+    "poster": "https://www.themoviedb.org/t/p/original/dmUuNVWAJumRkDNuauFaLSvga00.jpg",
+    "backdrop": "https://www.themoviedb.org/t/p/original/jsXKG9uppnPrhqFNhImllyCfLhl.jpg",
+    "logo": "https://www.themoviedb.org/t/p/original/kMCphLf7gUEaL2u0LqWFHcxN2Sf.png"
+  },
+  {
+    "name": "One Piece",
+    "poster": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/e3NBGiAifW9Xt8xD5tpARskjccO.jpg",
+    "backdrop": "https://www.themoviedb.org/t/p/original/4Mt7WHox67uJ1yErwTBFcV8KWgG.jpg",
+    "logo": "https://www.themoviedb.org/t/p/original/9F7daAmibx8ZHTE17CdM5FAwiHE.png"
+  },
+  {
+    "name": "Clannad: After Story",
+    "poster": "https://www.themoviedb.org/t/p/original/zQCcQgt8wWOp48hrrcRLCFx6UKn.jpg",
+    "backdrop": "https://www.themoviedb.org/t/p/original/91RS1KLYacGeqR2dBpHDnumj52I.jpg",
+    "logo": "https://www.themoviedb.org/t/p/original/LeMfUSxvoLQ0euO2hZl877CLT4.svg"
+  },
+  {
+    "name": "Death Parade",
+    "poster": "https://image.tmdb.org/t/p/w600_and_h900_bestv2/qeD9wDenN7CPA99FScSErJCvcWb.jpg",
+    "backdrop": "https://www.themoviedb.org/t/p/original/rD90W2kS2cedliKtepdb3vDiy2C.jpg",
+    "logo": "https://www.themoviedb.org/t/p/original/iQVaRt8HG2X9xjsHblwAAKNHM1h.png"
+  },
+  {
+    "name": "Kakegurui",
+    "poster": "https://www.themoviedb.org/t/p/original/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg",
+    "backdrop": "https://www.themoviedb.org/t/p/original/p7PpIcDRfDH5AZn0c7ZLqpoVAV6.jpg",
+    "logo": "https://www.themoviedb.org/t/p/original/apuiUZ4rkFWHK0YqlrGyoTJtGER.png"
+  },
+  {
+    "name": "Classroom of the Elite",
+    "poster": "https://www.themoviedb.org/t/p/original/yuHanbUUIv2UWRxxQFt9n8jtmOJ.jpg",
+    "backdrop": "https://www.themoviedb.org/t/p/original/c2sl2dLlyFFeb18pJtOpBD8cidr.jpg",
+    "logo": "https://www.themoviedb.org/t/p/original/498mpf7DuhKW1wVKQfXuclMy5GP.png"
+  }
+]
