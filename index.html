@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <img src="Images/attractive_Hafid.png" id="logo" />
+        <img src="Images/attractive_Hafid.jpg" id="logo" />
         <ul>
             <li id="labout" class="lis liactive">ABOUT</li>
             <li id="leducation" class="lis">EDUCATION</li>
@@ -61,89 +61,72 @@
             <h1 class="itemsname" style="color: #ce4a16">SKILLS</h1>
             <h2>PROGRAMMING LANGUAGES & TOOLS</h2>
             <div class="icons">
-                <img class="skill" id="c" src="Images/c.png" width="70rem">
-                <img class="skill" id="cpp" src="Images/cpp.png" width="70rem">
+                
+                <img class="skill" id="flutter" src="Images/flutter.png" width="105rem">
                 <img class="skill" id="html" src="Images/html.png" width="70rem">
                 <img class="skill" id="css" src="Images/css.png" width="70rem">
                 <img class="skill" id="javascript" src="Images/javascript.png" width="70rem">
                 <img class="skill" id="react" src="Images/react.png" width="70rem">
+                <img class="skill" id="react-native" src="Images/react.png" width="70rem">
                 <img class="skill" id="nextjs" src="Images/nextjs.png" width="70rem">
                 <img class="skill" id="tailwind" src="Images/tailwind.png" width="70rem">
                 <img class="skill" id="sql" src="Images/sql.png" width="70rem">
+                <img class="skill" id="express" src="Images/express.png" width="70rem">
+                <img class="skill" id="prisma" src="Images/prisma.png" width="70rem">
             </div>
             <div class="informations">
                 <div class="informations-section">
-                    <h3>Title : </h3>
+                    <h3>Name : </h3>
                     <p id="tech-title">C Programming Language</p>
                 </div>
-                <div class="informations-section">
+                <!-- <div class="informations-section">
                     <h3>Experience : </h3>
                     <p><span style="color:red; font-weight: bold;" id="experience">EXPERT</span> - <span id="duration">7 months</span></p>
                 </div>
                 <div class="informations-section">
                     <h3>Description : </h3>
                     <p id="description">C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie to create UNIX operating system.</p>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="items hobbys">
             <h1 class="itemsname" style="color: #ce4a16">HOBBYS</h1>
             <p>In my free time, I usually stay at home and spend most of my time playing my favorite video game League
-                of Legends<br /> and watching movies, animes and TV Shows and even though I'm a bad drawer, but I like
-                drawing as well.
+                of Legends<br /> and watching movies, animes and TV Shows and working on my side projects, even though I am a bad drawer but I also like drawing.
                 <br /><br /> When I go outside I usually play my favorite sports with my friends such as Football,
-                Basketball or Volleyball.
+                Basketball.
                 <br /><br /> <span style="color:crimson;">This is a list of my hobbys:</span>
             <ul id="hobbyslist">
                 <li>Playing video games</li>
                 <li>Watching movies and TV Shows</li>
+                <li>Working on side projects</li>
                 <li>Drawing</li>
                 <li>Football</li>
                 <li>Basketball</li>
-                <li>Volleyball</li>
             </ul>
             </p>
         </div>
         <div class="items projects">
-            <h1 class="itemsname" style="color: #ce4a16">PROJECTS</h1>
+            <div style="display: flex; justify-content: space-between;">
+                <h1 class="itemsname" style="color: #ce4a16">PROJECTS</h1>
+                <div id="arrows-container">
+                    <div id="left-arrow" class="arrow">
+                        <img src="Images/left.svg"  />
+                    </div>
+                    <span id="project-index">1</span>
+                    <div id="right-arrow" class="arrow">
+                        <img src="Images/right.svg"  id="right-arrow"/>
+                    </div>
+
+                </div>
+            </div>
             <div class="project">
                 <div class="project-item">
-                    <h2>Relational Database Tools :</h3>
-                    <div>
-                        <p><a target="_blank" href="https://vercel-relational-database-tools.vercel.app/">View Live Demo</a></p>
-                        <p><a target="_blank" href="https://github.com/HafidElmoudden/Relational-Database-Tools">View Source Code</a></p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <h2>My Personal Portfolio :</h3>
-                    <div>
-                        <p><a target="_blank" href="https://hafidelmoudden.github.io/">View Live Demo</a></p>
-                        <p><a target="_blank" href="https://github.com/HafidElmoudden/hafidelmoudden.github.io">View Source Code</a></p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <h2>Closure Calculator :</h3>
-                    <div>
-                        <p><a target="_blank" href="https://github.com/HafidElmoudden/Relational-Database-Closure-Calculator">View Source Code</a></p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <h2>My N-Queen Puzzle Solution :</h3>
-                    <div>
-                        <p><a target="_blank" href="https://github.com/HafidElmoudden/N-Queen-Puzzle-Solution">View Source Code</a></p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <h2>Cramer's Rule Matrix Determinant Calculator :</h3>
-                    <div>
-                        <p><a target="_blank" href="https://github.com/HafidElmoudden/Matrix-Determinant-Calculator">View Source Code</a></p>
-                    </div>
-                </div>
-                <div class="project-item">
-                    <h2>Anime Website Project (Crunchyroll Redesign) :</h3>
-                    <div>
-                        <p><a target="_blank" href="https://imgur.com/a/1rCRz0c">Images Preview (Project is incomplete)</a></p>
-                    </div>
+                    <h2 id="prj-title"></h3>
+                    <div id="prj-description"></div>
+                    <br>
+                    <div id="prj-tools"></div>
+                    <div id="prj-previews"></div>
                 </div>
             </div>
         </div>
