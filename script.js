@@ -23,6 +23,9 @@ var tailwind = document.getElementById('tailwind');
 var sql = document.getElementById('sql');
 var express = document.getElementById('express');
 var prisma = document.getElementById('prisma');
+var java = document.getElementById('java');
+var php = document.getElementById('php');
+var sqlserver = document.getElementById('sqlserver');
 
 var nextBtn = document.getElementById('right-arrow');
 var prevBtn = document.getElementById('left-arrow');
@@ -82,107 +85,57 @@ Array.from(lis).forEach(element => {
       });
 });
 
-// c.addEventListener("mouseover",() => {
-//   title.textContent = 'C Programming Language';
-//   // experience.textContent = "EXPERT";
-//   // experience.style.color = "red";
-//   // duration.textContent = "7 months";
-//   // description.innerHTML = `C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by Dennis M. Ritchie to create UNIX operating system.`;
-// })
-
-// cpp.addEventListener("mouseover",() => {
-//   title.textContent = 'C++ Programming Language';
-//   // experience.textContent = "BEGINNER";
-//   // experience.style.color = "green";
-//   // duration.textContent = "3 months";
-//   // description.innerHTML = `C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with classes". `;
-// })
 flutter.addEventListener("mouseover",() => {
   title.textContent = 'Flutter';
-  // experience.textContent = "EXPERT";
-  // experience.style.color = "red";
-  // duration.textContent = "9 months";
-  // description.innerHTML = `HTML is the most basic building block of the Web. It defines the meaning and structure of web content.`;
 })
 
 html.addEventListener("mouseover",() => {
   title.textContent = 'HTML (HyperText Markup Language)';
-  // experience.textContent = "EXPERT";
-  // experience.style.color = "red";
-  // duration.textContent = "9 months";
-  // description.innerHTML = `HTML is the most basic building block of the Web. It defines the meaning and structure of web content.`;
 })
 
 css.addEventListener("mouseover",() => {
   title.textContent = 'CSS (Cascading Style Sheets)';
-  // experience.textContent = "EXPERT";
-  // experience.style.color = "red";
-  // duration.textContent = "9 months";
-  // description.innerHTML = `CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed.`;
 })
 
 javascript.addEventListener("mouseover",() => {
   title.textContent = 'JavaScript';
-  // experience.textContent = "MEDIUM";
-  // experience.style.color = "yellow";
-  // duration.textContent = "4 months";
-  // description.innerHTML = `Javascript is used by programmers across the world to create dynamic and interactive web content like applications and browsers.`;
 })
 
 react.addEventListener("mouseover",() => {
   title.textContent = 'React';
-  // experience.textContent = "MEDIUM";
-  // experience.style.color = "yellow";
-  // duration.textContent = "3 months";
-  // description.innerHTML = `React is a JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.`;
 })
 
 reactNative.addEventListener("mouseover",() => {
   title.textContent = 'React Native';
-  // experience.textContent = "MEDIUM";
-  // experience.style.color = "yellow";
-  // duration.textContent = "3 months";
-  // description.innerHTML = `React is a JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.`;
 })
 
 next.addEventListener("mouseover",() => {
   title.textContent = 'NextJS';
-  // experience.textContent = "BEGINNER";
-  // experience.style.color = "green";
-  // duration.textContent = "1.5 months";
-  // description.innerHTML = `Next.js is a JavaScript framework used to build server-side rendering and static web applications using React.`;
 })
 
 tailwind.addEventListener("mouseover",() => {
   title.textContent = 'Tailwind CSS';
-  // experience.textContent = "MEDIUM";
-  // experience.style.color = "yellow";
-  // duration.textContent = "2 months";
-  // description.innerHTML = `Tailwind CSS is basically a utility-first CSS framework for rapidly building custom user interfaces.`;
 })
 
 sql.addEventListener("mouseover",() => {
   title.textContent = 'MySQL';
-  // experience.textContent = "MEDIUM";
-  // experience.style.color = "yellow";
-  // duration.textContent = "3 months";
-  // description.innerHTML = `MySQL is an open source relational database management system (RDBMS).`;
 })
 
 express.addEventListener("mouseover",() => {
   title.textContent = 'Express';
-  // experience.textContent = "MEDIUM";
-  // experience.style.color = "yellow";
-  // duration.textContent = "3 months";
-  // description.innerHTML = `MySQL is an open source relational database management system (RDBMS).`;
 })
 
 prisma.addEventListener("mouseover",() => {
   title.textContent = 'Prisma';
-  // experience.textContent = "MEDIUM";
-  // experience.style.color = "yellow";
-  // duration.textContent = "3 months";
-  // description.innerHTML = `MySQL is an open source relational database management system (RDBMS).`;
+})
+java.addEventListener("mouseover",() => {
+  title.textContent = 'Java';
+})
+php.addEventListener("mouseover",() => {
+  title.textContent = 'PHP';
+})
+sqlserver.addEventListener("mouseover",() => {
+  title.textContent = 'SQL Server';
 })
 
 const personalProjects = [

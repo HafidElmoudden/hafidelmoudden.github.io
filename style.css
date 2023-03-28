@@ -265,6 +265,7 @@ header ul {
 .skills {
     position: absolute;
     left: 50%;
+    width: 760px;
 }
 .skills h2 {
     font-family: 'Open Sans', sans-serif;
@@ -275,6 +276,7 @@ header ul {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .skill:not(:first-child) {
