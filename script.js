@@ -170,7 +170,7 @@ const personalProjects = [
     tools: `                        Frontend : NextJS, CSS.
     Backend : NextJS, Prisma, MySQL.`,
     previews: `                        <p><a target="_blank" href="https://imgur.com/a/bZmzxd5">View Demo</a></p>
-    <p><a target="_blank" href="https://github.com/HafidElmoudden/deplacement-for-stage">View Source Code</a></p>`
+    <p><a target="_blank" href="https://github.com/HafidElmoudden/deplacement-system">View Source Code</a></p>`
   },
 ] 
 
